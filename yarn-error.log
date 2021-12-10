@@ -1,0 +1,54 @@
+Arguments: 
+  C:\Program Files (x86)\nodejs\node.exe C:\Users\airat\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add *
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\airat\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\airat\AppData\Local\Programs\Python\Python39\;C:\Users\airat\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\PyCharm Community Edition 2021.1.1\bin;C:\Users\airat\AppData\Roaming\npm;C:\Users\airat\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\airat\WebStorm 2021.1.1\bin;C:\Program Files\JetBrains\PyCharm 2021.1.1\bin;C:\Program Files\JetBrains\DataGrip 2021.1.1\bin;C:\Program Files\JetBrains\CLion 2021.1.1\bin;C:\Program Files\heroku\bin;C:\adb;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\airat\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\airat\AppData\Local\Programs\Python\Python39\;C:\Users\airat\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\PyCharm Community Edition 2021.1.1\bin;;C:\Users\airat\AppData\Roaming\npm;C:\Users\airat\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\airat\WebStorm 2021.1.1\bin;;C:\Program Files\JetBrains\PyCharm 2021.1.1\bin;;C:\Program Files\JetBrains\DataGrip 2021.1.1\bin;;C:\Program Files\JetBrains\CLion 2021.1.1\bin;;C:\Program Files\heroku\bin
+
+Yarn version: 
+  1.22.11
+
+Node version: 
+  14.16.1
+
+Platform: 
+  win32 ia32
+
+Trace: 
+  Error: https://registry.yarnpkg.com/*: Not found
+      at Request.params.callback [as _callback] (C:\Users\airat\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:66992:18)
+      at Request.self.callback (C:\Users\airat\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140763:22)
+      at Request.emit (events.js:315:20)
+      at Request.<anonymous> (C:\Users\airat\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141735:10)
+      at Request.emit (events.js:315:20)
+      at IncomingMessage.<anonymous> (C:\Users\airat\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141657:12)
+      at Object.onceWrapper (events.js:421:28)
+      at IncomingMessage.emit (events.js:327:22)
+      at endReadableNT (internal/streams/readable.js:1327:12)
+      at processTicksAndRejections (internal/process/task_queues.js:80:21)
+
+npm manifest: 
+  {
+    "name": "socsetka",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "dev": "nodemon run start"
+    },
+    "author": "Ayrat Gafurov",
+    "license": "ISC",
+    "dependencies": {
+      "dotenv": "^10.0.0",
+      "express": "^4.17.1",
+      "helmet": "^4.6.0",
+      "mongoose": "^6.0.5",
+      "morgan": "^1.10.0",
+      "nodemon": "^2.0.12"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

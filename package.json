@@ -3,8 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines": {
+    "node": "14.x",
+    "npm": "7.22.0"
+  },
   "scripts": {
-    "dev": "nodemon run start"
+    "dev": "nodemon run start",
+    "heroku-postbuild": "npm run build"
   },
   "author": "Ayrat Gafurov",
   "license": "ISC",
